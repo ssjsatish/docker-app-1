@@ -1,0 +1,28 @@
+{
+  "name": "docker-app-1",
+  "version": "1.0.0",
+  "description": "Simple web app to demo how docker works and how to make container running a node web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssjsatish/docker-app-1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker"
+  ],
+  "author": "Satish Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssjsatish/docker-app-1/issues"
+  },
+  "homepage": "https://github.com/ssjsatish/docker-app-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}
